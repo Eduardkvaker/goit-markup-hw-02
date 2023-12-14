@@ -1,5 +1,38 @@
-body{
-    color:#000000;
-    background-color:#ffffff;
+:root {
+    --primery-text-color:#757575;
+    --primery-background-color:#ffffff;
+    --primery-title-text-color:#212121;
 }
-/* основні кольори */
+body{
+    color:var(--primery-text-color);
+    background-color:var(--primery-background-color);
+    font-family:Roboto;
+}
+/* основний колір текста #757575 */
+/*колір заголовка h2,h3 #212121*/
+/*колір hover #2196F3*/
+/*колір button #2196F3*/
+/*колір button active #188CE8, #ffffff*/
+/*колір логотипа Web #2196F3, Studio #000*/
+.logo  {
+color: #2196F3;
+}
+.logo-black {
+    color: #000;
+}
+.site-nav {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.site-nav:focus,:hover {
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
