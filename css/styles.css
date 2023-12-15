@@ -36,3 +36,27 @@ color: #2196F3;
     line-height: normal;
     letter-spacing: 0.28px;
 }
+.mail {
+color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.mail:hover {
+    color: #2196F3;
+}
+.phone {
+    color: #757575;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+}
+.phone:hover {
+    color: #2196F3;
+}
