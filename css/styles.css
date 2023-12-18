@@ -48,7 +48,7 @@ color: #757575;
     line-height: normal;
     letter-spacing: 0.28px;
 }
-.mail:hover {
+.mail:hover, .mail:focus {
     color: #2196F3;
 }
 .phone {
@@ -60,8 +60,17 @@ color: #757575;
         line-height: normal;
         letter-spacing: 0.28px;
 }
-.phone:hover {
+.phone:hover, .phone:focus  {
     color: #2196F3;
+}
+.address {
+color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 .hero {
     background: #2F303A;
@@ -95,8 +104,8 @@ color: #FFF;
         letter-spacing: 0.96px;
         cursor: pointer;
 }
-.btn:active {
-    color: #2196F3;
+.btn:hover, .btn:focus {
+    color: #188CE8;
     background: #ffffff;
 }
 .caption {
