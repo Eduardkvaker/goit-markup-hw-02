@@ -1,12 +1,14 @@
 :root {
+    --primery-font-family:Roboto, sans-serif;
     --primery-text-color:#757575;
     --primery-background-color:#ffffff;
-    --primery-title-text-color:#212121;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
 }
 body{
     color:var(--primery-text-color);
     background-color:var(--primery-background-color);
-    font-family:Roboto;
+    font-family:var(--primery-font-family)
 }
 /* основний колір текста #757575 */
 /*колір заголовка h2,h3 #212121*/
@@ -16,6 +18,11 @@ body{
 /*колір логотипа Web #2196F3, Studio #000*/
 .logo  {
 color: #2196F3;
+font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.78px;
 }
 .logo-black {
     color: #000;
@@ -25,52 +32,36 @@ color: #2196F3;
 }
 .nav-link {
     color: #212121;
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.2;
     letter-spacing: 0.28px;
 }
-.nav-link:hover, :focus {
-    color: #2196F3;
-    font-family: Roboto;
+.nav-link:hover,
+.nav-link:focus {
+    color:var(--accent-color);
+    font-family: inherit;
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.2;
     letter-spacing: 0.28px;
 }
-.mail {
-color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-}
-.mail:hover, .mail:focus {
-    color: #2196F3;
-}
-.phone {
-    color: #757575;
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.28px;
-}
-.phone:hover, .phone:focus  {
-    color: #2196F3;
-}
+.mail,
+.phone,
 .address {
 color: #757575;
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.2;
     letter-spacing: 0.28px;
+}
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus{
+    color:var(--accent-color);
 }
 .hero {
     background: #2F303A;
@@ -82,10 +73,8 @@ color: #FFF;
     text-align: center;
     font-family: Roboto;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
-    line-height: 60px;
-    /* 136.364% */
+    line-height: 1.4;
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
@@ -171,6 +160,7 @@ background: #2F303A;
 .title-hidden {
     color: #000;
 }
+
 .button-filter-all {
     color: #FFF;
         text-align: center;
