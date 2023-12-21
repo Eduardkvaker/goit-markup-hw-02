@@ -71,7 +71,7 @@ color: #757575;
 color: #FFF;
 
     text-align: center;
-    font-family: Roboto;
+    font-family: var(--primery-font-family);
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
@@ -84,9 +84,8 @@ color: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
         text-align: center;
-        font-family: Roboto;
+        font-family: var(--primery-font-family);
         font-size: 16px;
-        font-style: normal;
         font-weight: 700;
         line-height: 1,87;
         /* 187.5% */
@@ -98,33 +97,29 @@ color: #FFF;
     background: #ffffff;
 }
 .caption {
-    color: #212121;
-        font-family: Roboto;
+    color: var(--title-text-color);
+        font-family: var(--primery-font-family);
         font-size: 14px;
-        font-style: normal;
         font-weight: 700;
-        line-height: normal;
+        line-height: 1.2;
         letter-spacing: 0.42px;
         text-transform: uppercase;
 }
 .text {
-    color: #757575;
-        font-family: Roboto;
+    color: var(--primery-text-color);
+        font-family: var(--primery-font-family);
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+        line-height: 1.7;
         /* 171.429% */
         letter-spacing: 0.42px;
 }
 .subject {
-    color: #212121;
+    color: var(--title-text-color);
         text-align: center;
-        font-family: Roboto;
+        font-family: var(--primery-font-family);
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
-        line-height: normal;
+        line-height: 1.2;
         letter-spacing: 1.08px;
 }
 .list {
@@ -136,21 +131,19 @@ color: #FFF;
 .desc {
     color: #212121;
         text-align: center;
-        font-family: Roboto;
+        font-family: var(--primery-font-family);
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
-        line-height: normal;
+        line-height: 1.2;
         letter-spacing: 0.48px;
 }
 .headline {
-    color: #212121;
+    color: var(--title-text-color);
         text-align: center;
-        font-family: Roboto;
+        font-family: var(--primery-font-family);
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
-        line-height: normal;
+        line-height: 1.2;
         letter-spacing: 0.48px;
 }
 .footer {
@@ -164,11 +157,10 @@ background: #2F303A;
 .button-filter-all {
     color: #FFF;
         text-align: center;
-        font-family: Roboto;
+        font-family: var(--primery-font-family);
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
-        line-height: 26px;
+        line-height: 1.6;
         /* 162.5% */
         letter-spacing: 0.48px;
     border-radius: 4px;
@@ -178,33 +170,29 @@ background: #2F303A;
     background: #F5F4FA;
     color: #212121;
      text-align: center;
-     font-family: Roboto;
+     font-family: var(--primery-font-family);
      font-size: 16px;
-     font-style: normal;
      font-weight: 500;
-     line-height: 26px;
+     line-height: 1.6;
      /* 162.5% */
      letter-spacing: 0.48px;
     border-radius: 4px;
     background: #F5F4FA;
 }
 .heading {
-    color: #212121;
-        font-family: Roboto;
+    color: var(--title-text-color);
+        font-family: var(--primery-font-family);
         font-size: 18px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 36px;
+        line-height: 2.0;
         /* 200% */
         letter-spacing: 1.08px;
 }
 .slogan{
-    color: #757575;
-        font-family: Roboto;
+    color: var(--primery-text-color);
+        font-family: var(--primery-font-family);
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
+        line-height: 1.9x;
         /* 187.5% */
         letter-spacing: 0.48px;
 }
