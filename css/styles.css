@@ -23,12 +23,16 @@ font-family: Raleway;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.78px;
+    text-decoration: none;
 }
 .logo-black {
     color: #000;
 }
 .logo-white {
     color: #ffffff;
+}
+.nav {
+    list-style-type: none;
 }
 .nav-link {
     color: #212121;
@@ -37,6 +41,8 @@ font-family: Raleway;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.28px;
+    text-decoration: none;
+   
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -47,15 +53,29 @@ font-family: Raleway;
     line-height: 1.2;
     letter-spacing: 0.28px;
 }
-.mail,
-.phone,
+.list {
+    list-style-type: none;
+}
 .address {
-color: #757575;
-    font-family: inherit;
+color: #FFF;
+    font-family: Roboto;
     font-size: 14px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+.mail,
+.phone {
+color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+    text-decoration: none;
 }
 .mail:hover,
 .mail:focus,
@@ -96,6 +116,9 @@ color: #FFF;
     color: #188CE8;
     background: #ffffff;
 }
+.items {
+    list-style-type:none;
+}
 .caption {
     color: var(--title-text-color);
         font-family: var(--primery-font-family);
@@ -129,12 +152,14 @@ color: #FFF;
     text-decoration: none;
 }
 .desc {
-    color: #212121;
+    color: #757575;
+    
         text-align: center;
-        font-family: var(--primery-font-family);
+        font-family: Roboto;
         font-size: 16px;
-        font-weight: 500;
-        line-height: 1.2;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
         letter-spacing: 0.48px;
 }
 .headline {
@@ -153,6 +178,9 @@ background: #2F303A;
 .title-hidden {
     color: #000;
 }
+.filter {
+    list-style-type: none;
+}
 
 .button-filter-all {
     color: #FFF;
@@ -166,6 +194,11 @@ background: #2F303A;
     border-radius: 4px;
     background: #2196F3;
 }  
+.button-filter-all:hover,
+.button-filter-all:focus {
+  color: #000000; 
+  background-color: #2196F3;
+}
 .button-filter {
     background: #F5F4FA;
     color: #212121;
@@ -178,6 +211,11 @@ background: #2F303A;
      letter-spacing: 0.48px;
     border-radius: 4px;
     background: #F5F4FA;
+}
+.button-filter:hover,
+.button-filter:focus {
+background: #2196F3;
+color: #FFF;
 }
 .heading {
     color: var(--title-text-color);
