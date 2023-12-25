@@ -71,13 +71,13 @@ color: #FFF;
 }
 .mail,
 .phone {
-color: rgba(255, 255, 255, 0.60);
+color: #757575;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0.42px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.28px;
     text-decoration: none;
 }
 .mail:hover,
@@ -150,6 +150,7 @@ color: #FFF;
 }
 .list {
     text-decoration: none;
+    list-style-type: none;
 }
 .picture {
     text-decoration: none;
@@ -200,11 +201,6 @@ background: #2F303A;
     border-radius: 4px;
     background: #2196F3;
 }  
-.button-filter-all:hover,
-.button-filter-all:focus {
-  color: #000000; 
-  background-color: #2196F3;
-}
 .button-filter {
     background: #F5F4FA;
     color: #212121;
@@ -223,6 +219,14 @@ background: #2F303A;
 background: #2196F3;
 color: #FFF;
 }
+.link {
+text-decoration: none;
+ list-style-type: none;
+}
+.list-links {
+text-decoration: none;
+list-style-type: none;
+}
 .heading {
     color: var(--title-text-color);
         font-family: var(--primery-font-family);
@@ -231,7 +235,8 @@ color: #FFF;
         line-height: 2.0;
         /* 200% */
         letter-spacing: 1.08px;
-}
+        
+        }
 .slogan{
     color: var(--primery-text-color);
         font-family: var(--primery-font-family);
@@ -239,4 +244,5 @@ color: #FFF;
         line-height: 1.9x;
         /* 187.5% */
         letter-spacing: 0.48px;
+        
 }
